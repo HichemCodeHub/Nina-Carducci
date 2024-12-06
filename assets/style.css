@@ -50,6 +50,11 @@ body {
 	position: relative;
 }
 
+.visually-hidden {
+	background-color: #E5975F;
+	color: #000;
+}
+
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
@@ -90,9 +95,6 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -102,7 +104,7 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #5d5829;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
